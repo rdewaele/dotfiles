@@ -24,6 +24,7 @@ brew install \
 	coreutils \
 	gist \
 	gradle \
+	grc \
 	htop-osx \
 	hub \
 	imagemagick \
