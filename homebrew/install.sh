@@ -12,7 +12,26 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /tmp/homebrew-install.log
 fi
 
+# Add homebrew taps
+brew tap \
+	telemachus/homebrew-desc
+
 # Install homebrew packages
-brew install grc coreutils spark
+brew install \
+	bash-completion \
+	brew-desc \
+	cmake \
+	coreutils \
+	gist \
+	gradle \
+	htop-osx \
+	hub \
+	imagemagick \
+	mplayershell \
+	sloccount \
+	tig \
+	unrar \
+	wget \
+	xz
 
 exit 0
