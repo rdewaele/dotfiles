@@ -35,4 +35,7 @@ brew install \
 	wget \
 	xz
 
+# "To install, drag this icon..." no more!
+brew install caskroom/cask/brew-cask
+
 exit 0
